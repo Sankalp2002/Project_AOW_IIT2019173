@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>Sign Up</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8" />
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="login.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body class="body" style="background-image: url('bg3.jpeg'); background-size: cover;;">
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#" style="color:white;">GenSim Utility</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li><a href="http://127.0.0.1:5500/homepage.html" style="color:white;">Home</a></li>
+                          <li ><a href="http://127.0.0.1:5500/overview.html" style="color:white;" >Overview</a></li>
+                          <li><a href="http://127.0.0.1:5500/login.html" style="color:white;">Login</a></li>
+                          <li><a href="http://127.0.0.1:5500/datasets.html" style="color:white;">Datasets</a></li>
+                          
+                        </ul>
+                      </div>
+        </nav>
+        <div class="jumbotron text-center" style="background-color:rgba(54, 53, 65, 0.534) ;">
+                <h2 style="color:white;">Sign Up to become an Admin</h2>
+              </div>
+            <hr style="width:75%;"/>
+        <div class=".container-fluid ">
+                <div class="d-flex justify-content-center align-items-center container">
+                <div class="column">
+      <div class="login-page">
+        <div class="form">
+          <form class=" justify-content-center ">
+                <div class="column-sm">
+            <input type="text" class="input-lg" placeholder="full name" />
+            </div>
+            <div class="column-sm">
+            <input type="text" class="input-lg" placeholder="email address" />
+            </div>
+            <div class="column-sm">
+            <input type="tel" class="input-lg" placeholder="contact number" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required>
+            </div>
+            <div class="column-sm">
+            <input type="text" class="input-lg" placeholder="pick a admin id" />
+            <div class="column-sm">
+            <input type="password" class="input-lg" id="password" placeholder="set a password" />
+            <i class="fas fa-eye" onclick="show()"></i>
+            </div>
+          </form>
+          <div class="column-lg">
+          <form class="signup-form">
+            <button type="button" class="btn btn-primary" onclick="window.location.href='login.html'">
+              SIGN UP
+            </button>
+          </form>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </body>
+    <script>
+      function show() {
+        var password = document.getElementById("password");
+        var icon = document.querySelector(".fas");
+
+        // ========== Checking type of password ===========
+        if (password.type === "password") {
+          password.type = "text";
+        } else {
+          password.type = "password";
+        }
+      }
+    </script>
+  </html>
+</html>
