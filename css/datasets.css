@@ -1,3 +1,15 @@
+label {
+  display: block;
+  font: 2rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: 10px ;
+}
+.url{
+  max-width:25%;
+}
 #output {
 
   background-color: beige;
@@ -14,6 +26,11 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+#dataset_body{
+  background-image: url('res/dtbg.jpg');
+  background-size: cover;
+}
 .dropdown-item {
   width: 80%;
   margin: 0 auto;
@@ -23,6 +40,11 @@
 }
 .div2{
   margin:10px;
+  color:white;
+}
+
+.url_label{
+  color:white;
 }
 
 img{
