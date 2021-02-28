@@ -21,7 +21,7 @@ p {
 }
 
 .home_body{
-  background-image: url('res/bg3.jpeg');
+  background-image: url('../res/bg3.jpeg');
   background-size: cover;
   
 }

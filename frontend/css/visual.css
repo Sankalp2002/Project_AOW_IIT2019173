@@ -16,7 +16,7 @@
 }
 
 #visual_body{
-  background-image: url('res/ovbg.jpg');
+  background-image: url('../res/ovbg.jpg');
   background-size: cover;
 }
 .dropdown-item {

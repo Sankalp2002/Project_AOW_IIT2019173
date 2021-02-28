@@ -28,7 +28,7 @@ label {
 }
 
 #dataset_body{
-  background-image: url('res/dtbg.jpg');
+  background-image: url('../res/dtbg.jpg');
   background-size: cover;
 }
 .dropdown-item {
