@@ -4616,7 +4616,7 @@ body.is-mobile .banner > article {
 }
 .flex-container {
   display: flex;
-  background-color: #253645;
+  background-color: white;
 }
 
 .flex-container > div {
@@ -4626,8 +4626,8 @@ body.is-mobile .banner > article {
   font-size: 1.5rem;
 }
 .flex-container .content {
-  background-color: #253645;
-  margin: 5rem 0 0 0;
+  background-color: #e8deec;
+  margin: 2.5rem 0 2.5rem 0;
   padding: 20px;
   font-size: 1.5rem;
 }
