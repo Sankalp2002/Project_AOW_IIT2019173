@@ -4617,17 +4617,17 @@ body.is-mobile .banner > article {
 .flex-container {
   display: flex;
   background-color: white;
+  padding: 20px;
 }
 
-.flex-container > div {
-  background-color: #253645;
-  margin: 0px;
-  padding: 20px;
+.flex-container > img {
+  background-color: white;
+  margin: 2.5rem 0 2.5rem 0;
   font-size: 1.5rem;
 }
 .flex-container .content {
   background-color: #e8deec;
-  margin: 2.5rem 0 2.5rem 0;
+  margin: 2.5rem 2.5rem 2.5rem 2.5rem;
   padding: 20px;
   font-size: 1.5rem;
 }
