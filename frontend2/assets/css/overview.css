@@ -4212,10 +4212,10 @@ ul.links li.active {
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 1.5s linear, visibility 1.5s;
-			-webkit-transition: opacity 1.5s linear, visibility 1.5s;
-			-ms-transition: opacity 1.5s linear, visibility 1.5s;
-			transition: opacity 1.5s linear, visibility 1.5s;
+			-moz-transition: opacity 0s linear, visibility 0.5s;
+			-webkit-transition: opacity 0s linear, visibility 0.5s;
+			-ms-transition: opacity 0s linear, visibility 0.5s;
+			transition: opacity 0s linear, visibility 0.5s;
 			background: #000000;
 			content: '';
 			display: block;
