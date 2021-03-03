@@ -1,5 +1,5 @@
 body{
-  background-image: url("../../images/dtbg.jpg");
+  background-color: #192423;
   background-size: cover;
   background-attachment: fixed;
   font-family: serif;
@@ -48,7 +48,6 @@ body{
 #clos{
   
   background-color: rgb(27, 31, 34);
-  display: block;
   border-radius: 90%;
   color: white;
   text-align: center;

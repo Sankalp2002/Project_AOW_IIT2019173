@@ -5,6 +5,8 @@
 	text-align: center;
 }
 
+
+  
 ul.links li.active {
   z-index: 2;
   color: #fff;
@@ -18,8 +20,8 @@ ul.links li.active {
 	padding-right: 2rem;
 	
 }
-#ovheader{
-	font-size: 4.50rem;
+.ovheader{
+	font-size: 3.5rem;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -4469,4 +4471,64 @@ ul.links li.active {
 				padding: 3rem 0 1rem 0 ;
 			}
 
+		}
+		@media screen and (max-width: 1680px) {
+
+			#hheader{
+				font-size: 3.0rem
+			}
+			.ovheader{
+				font-size: 2.0rem;
+			}
+			.oheader{
+				font-size: 4.0rem;
+			}
+		}
+		@media screen and (max-width: 1280px) {
+		
+			#hheader{
+				font-size: 3.0rem;
+			}
+			.ovheader{
+				font-size: 2.0rem;
+			}
+			.oheader{
+				font-size: 3.5rem;
+			}
+		}
+		@media screen and (max-width: 980px) {
+		
+			#hheader{
+				font-size: 3.0rem;
+			}
+			.ovheader{
+				font-size: 2.0rem;
+			}
+			.oheader{
+				font-size: 3.0rem;
+			}
+		}
+		@media screen and (max-width: 736px) {
+		
+			#hheader{
+				font-size: 3.0rem;
+			}
+			.ovheader{
+				font-size: 2.0rem;
+			}
+			.oheader{
+				font-size: 3.0rem;
+			}
+		}
+		@media screen and (max-width: 480px) {
+		
+			#hheader{
+				font-size: 3.0rem;
+			}
+			.ovheader{
+				font-size: 1.5rem;
+			}
+			.oheader{
+				font-size: 3.0rem;
+			}
 		}
