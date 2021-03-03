@@ -1815,19 +1815,7 @@
 		border-bottom-color: rgba(144, 144, 144, 0.25);
   }
   
-  div.box {
-    background: rgb(36, 160, 63);
-    animation: createBox .25s;
-    width: 98px; height: 98px;
-  }
-  @keyframes createBox {
-    from {
-      transform: scale(0);
-    }
-    to {
-      transform: scale(1);
-    }
-  }
+  
 /*main*/
 #main {
 	-moz-flex-grow: 1;
