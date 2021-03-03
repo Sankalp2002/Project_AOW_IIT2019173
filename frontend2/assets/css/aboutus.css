@@ -4,10 +4,10 @@
 .pcentre {
   text-align: center;
 }
-img{
-  width:100%;
-  height:auto;
-  alt:"";
+img {
+  width: 100%;
+  height: auto;
+  alt: "";
   object-position: 0.5rem 0.5rem;
 }
 
@@ -21,7 +21,7 @@ img{
   background-color: #e8deec;
   padding: 1rem;
   margin: 1rem;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 1680px) {
@@ -29,8 +29,8 @@ img{
     width: 2500px;
     font-size: 1rem;
   }
-  #ovheader{
-    font-size: 4.5rem
+  #ovheader {
+    font-size: 4.5rem;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -38,7 +38,7 @@ img{
     width: 2000px;
     font-size: 1.2rem;
   }
-  #ovheader{
+  #ovheader {
     font-size: 3.5rem;
   }
 }
@@ -47,7 +47,7 @@ img{
     width: 1200px;
     font-size: 0.8rem;
   }
-  #ovheader{
+  #ovheader {
     font-size: 2.5rem;
   }
 }
@@ -56,7 +56,7 @@ img{
     width: 900px;
     font-size: 0.8rem;
   }
-  #ovheader{
+  #ovheader {
     font-size: 2.5rem;
   }
 }
@@ -65,7 +65,7 @@ img{
     width: 600px;
     font-size: 0.8rem;
   }
-  #ovheader{
+  #ovheader {
     font-size: 2rem;
   }
 }

@@ -1,3 +1,3 @@
-function closepage(){
+function closepage() {
   window.close();
 }
