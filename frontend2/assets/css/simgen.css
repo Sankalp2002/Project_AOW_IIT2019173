@@ -1,10 +1,14 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
+
+#outerbox{
+  margin-left: 2rem;
+}
 .pcentre {
   text-align: center;
 }
-
 #ovheader {
   font-size: 4.5rem;
 }
