@@ -3,15 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
 
-#outerbox{
-  margin-left: 2rem;
-}
-.pcentre {
-  text-align: center;
-}
-#ovheader {
-  font-size: 4.5rem;
-}
 html,
 body,
 div,
@@ -2107,7 +2098,7 @@ hr {
 
 .box {
   margin-bottom: 2rem;
-  background: rgb(232, 222, 236);
+  background: rgb(104, 103, 104);
 }
 
 .box .image.fit {
@@ -4618,4 +4609,24 @@ body.is-mobile .banner > article {
   #footer {
     padding: 3rem 0 1rem 0;
   }
+}
+
+.pcentre {
+  text-align: center;
+}
+#ovheader {
+  font-size: 4.5rem;
+}
+
+#outerbox {
+  padding: 0.5rem;
+  background-color: rgb(232, 219, 235);
+  border-style: groove;
+  border-width: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  alt: "";
 }
