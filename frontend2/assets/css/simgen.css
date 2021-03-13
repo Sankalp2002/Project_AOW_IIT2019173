@@ -4658,7 +4658,7 @@ label {
 }
 
 #ddone, #ddtwo {
-  display: none;
+  display: block;
 }
 #urlbox1, #urlbox2 {
   display: none;
@@ -4752,13 +4752,24 @@ label {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-#d1, #d2{
+.d1,.d2{
+  padding: 0 0px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+}
+/* #ds1,#ds4{
+  max-height: fit-content;
+} */
+
+/* #d2{
   padding: 0 0px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-}
+} */
 
 /* Style the accordion panel. Note: hidden by default */
 #dset1, #dset2{

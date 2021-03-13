@@ -57,7 +57,7 @@
           <h2 id="innerh2" class="pcentre">Choose dataset #1</h2>
 
           <div class="boxes">
-            <input type="radio" name="toggle1" id="one" onclick="dtoggle1()">
+            <input type="radio" name="toggle1" id="one" onclick="dtoggle1()" checked>
             <label for="one">Choose existing</label>
 
             <input type="radio" name="toggle1" id="two" onclick="utoggle1()">
@@ -65,30 +65,37 @@
           </div>
 
           <div id="ddone" class="boxes">
-            <form method="POST">
+            <!-- <form > -->
             <div>
-              <select id="pd1" name="pd1">
-                <option value="3">three</option>
-                <option value="4">four</option>
+              <select id="pd1" name="pd1" onchange="toggle1()">
+                <option value="ds1" >one</option>
+                <option value="ds2">two</option>
+                <option value="ds3">three</option>
               </select>
             </div>
             <br>
             <button class="accordion" id="ac1" onclick="actoggle1()">Description</button>
-            <div id="d1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
-                quo suscipit esse modi consequatur ullam fugit aspernatur quam similique, natus quod! Sapiente porro
-                fugit dolor.
+            <div class="d1" id="ds1">
+              <p>One  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
+              </p>
+            </div>
+            <div class="d1" id="ds2">
+              <p>Two  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
+              </p>
+            </div>
+            <div class="d1" id="ds3">
+              <p>Three   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
               </p>
             </div>
             <br>
             <button class="btn btn-primary" type="button" onclick="confirm1()">
               Submit
             </button>
-            </form>
+            <!-- </form> -->
           </div>
 
           <div class="urlbox boxes" id="urlbox1">
-            <form method="POST">
+            <!-- <form > -->
             <label for="url1">Import Dataset #1</label>
             <input type="url" name="url" id="url1" placeholder="https://example.com" pattern="https://.*" size="30"
               required class="urlfield">
@@ -98,7 +105,7 @@
                 Submit
               </button>
             </div>
-            </form>
+            <!-- </form> -->
           </div>
           <br>
         </div>
@@ -111,7 +118,7 @@
           <h2 id="innerh2" class="pcentre">Choose dataset #2</h2>
 
           <div class="boxes">
-            <input type="radio" name="toggle2" id="3rd" onclick="dtoggle2()">
+            <input type="radio" name="toggle2" id="3rd" onclick="dtoggle2()" checked>
             <label for="3rd">Choose existing</label>
 
             <input type="radio" name="toggle2" id="4th" onclick="utoggle2()">
@@ -119,28 +126,38 @@
           </div>
 
           <div id="ddtwo" class="boxes">
-            <form method="POST">
+            <!-- <form > -->
             <div>
-              <select id="pd2" name="pd2">
-                <option value="1">one</option>
+              <select id="pd2" name="pd2" onchange="toggle2()" >
+                <option value="ds4">four</option>
+                <option value="ds5">five</option>
+                <option value="ds6">six</option>
               </select>
             </div>
             <br>
             <button class="accordion" id="ac2" onclick="actoggle2()">Description</button>
-            <div id="d2">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex velit officiis ratione sed alias, eveniet
-                illum ipsam incidunt ipsum minus dolores sapiente ad unde recusandae at. Vel quis blanditiis eligendi?
+            <div class="d2" id="ds4">
+              <p>Four   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
+              </p>
+            </div>
+            
+            <div class="d2" id="ds5">
+              <p>Five   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
+              </p>
+            </div>
+            <div class="d2" id="ds6">
+              <p>Six   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus
               </p>
             </div>
             <br>
             <button class="btn btn-primary" type="button" onclick="confirm2()">
               Submit
             </button>
-            </form>
+            <!-- </form> -->
           </div>
 
           <div class="urlbox boxes" id="urlbox2">
-            <form method="POST">
+            <!-- <form > -->
             <label for="url2">Import Dataset #2</label>
             <input type="url" name="url" id="url2" placeholder="https://example.com" pattern="https://.*" size="30"
               required class="urlfield">
@@ -150,7 +167,7 @@
                 Submit
               </button>
             </div>
-            </form>
+            <!-- </form> -->
           </div>
           <br>
         </div>
@@ -158,7 +175,7 @@
     </div>
 
     <div class="pcentre">
-      <form method="POST">
+      <form >
         <input type="text" id="dset1" readonly>
         <input type="text" id="dset2" readonly>
         <button class="btn-lg btn-primary" type="button" onclick="showresult()">Generate Result</button>
