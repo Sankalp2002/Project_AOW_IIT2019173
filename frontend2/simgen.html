@@ -29,6 +29,7 @@
   <nav id="menu">
     <ul class="links">
       <li><a href="home.html">Home</a></li>
+      <li><a href="#">Admin</a></li>
       <li><a href="overview.html">Overview</a></li>
       <li><a href="simgen.html">Similarity Generation</a></li>
       <li><a href="aboutus.html">About Us</a></li>
@@ -66,18 +67,14 @@
 
         <div id="ddone" class="boxes">
           <div >
-            <select id = "pd1" name="pd2">
+            <select id = "pd1" name="pd1">
               <option value = "1">one</option>
-              <option value = "2">two</option>
-              <option value = "3">three</option>
-              <option value = "4">four</option>
             </select>
           </div>
           <br>
-          <button data-toggle="collapse" data-target="#d1" class="btn-primary">+Description</button>
-
-          <div id="d1" class="collapse">
-            Lorem ipsum dolor text....
+          <button class="accordion" id="ac1" onclick="actoggle1()">Description</button>
+          <div id="d1" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem porro eius veritatis minus quo suscipit esse modi consequatur ullam fugit aspernatur quam similique, natus quod! Sapiente porro fugit dolor.</p>
           </div>
         </div>
 
@@ -118,10 +115,9 @@
             </select>
           </div>
           <br>
-          <button data-toggle="collapse" data-target="#d2" class="btn-primary">+Description</button>
-
-          <div id="d2" class="collapse">
-            Lorem ipsum dolor text....
+          <button class="accordion" id="ac2" onclick="actoggle2()">Description</button>
+          <div id="d2" >
+            <p>Lorem ipsum...</p>
           </div>
         </div>
 

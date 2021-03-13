@@ -1,7 +1,3 @@
-function showresult() {
-  window.open("result.html", "_blank");
-}
-
 function getSelectedOption(sel) {
   var opt;
   for ( var i = 0, len = sel.options.length; i < len; i++ ) {
@@ -21,7 +17,7 @@ function dtoggle1(){
   var dd1=document.getElementById('ddone');
   if (dd1.style.display === "block") {
     dd1.style.display = "none";
-  } else {
+  } else {    
     dd1.style.display = "block";
   }
   
@@ -95,4 +91,41 @@ function confirm2(){
   else{
     document.getElementById('dset2').value = ele2.value;
   }
+}
+
+function actoggle1(){
+  // this.toggle("active");
+  var acc=document.getElementById('ac1');
+  acc.classList.toggle("active");
+  var panel = document.getElementById('d1');
+  // if (panel.style.display === "block") {
+  //   panel.style.display = "none";
+  // } else {
+  //   panel.style.display = "block";
+  // }
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  }
+
+}
+
+function actoggle2(){
+  // this.toggle("active");
+  var acc=document.getElementById('ac2');
+  acc.classList.toggle("active");
+  var panel = document.getElementById('d2');
+  
+  // if (panel.style.display === "block") {
+  //   panel.style.display = "none";
+  // } else {
+  //   panel.style.display = "block";
+  // }
+  if (panel.style.maxHeight) {
+    panel.style.maxHeight = null;
+  } else {
+    panel.style.maxHeight = panel.scrollHeight + "px";
+  }
+
 }
