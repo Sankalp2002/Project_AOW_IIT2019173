@@ -4374,10 +4374,10 @@ body.subpage {
   -webkit-pointer-events: none;
   -ms-pointer-events: none;
   pointer-events: none;
-  -moz-transition: opacity 0s linear, visibility 0s;
-  -webkit-transition: opacity 0s linear, visibility 0s;
-  -ms-transition: opacity 0s linear, visibility 0s;
-  transition: opacity 0s linear, visibility 0s;
+  -moz-transition: opacity 1s linear, visibility 1s;
+  -webkit-transition: opacity 1s linear, visibility 1s;
+  -ms-transition: opacity 1s linear, visibility 1s;
+  transition: opacity 1s linear, visibility 1s;
   background: #000000;
   content: "";
   display: block;

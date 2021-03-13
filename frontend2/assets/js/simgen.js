@@ -94,7 +94,6 @@ function confirm2(){
 }
 
 function actoggle1(){
-  // this.toggle("active");
   var acc=document.getElementById('ac1');
   acc.classList.toggle("active");
   var panel = document.getElementById('d1');
@@ -108,7 +107,6 @@ function actoggle1(){
   } else {
     panel.style.maxHeight = panel.scrollHeight + "px";
   }
-
 }
 
 function actoggle2(){
@@ -127,5 +125,4 @@ function actoggle2(){
   } else {
     panel.style.maxHeight = panel.scrollHeight + "px";
   }
-
 }
